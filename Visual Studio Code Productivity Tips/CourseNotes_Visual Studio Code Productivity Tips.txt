@@ -1,0 +1,174 @@
+Course Title: Visual Studio Code Productivity Tips
+
+Description: Make your coding and debugging workflow more productive with Visual Studio (VS) Code, the optimized code editor for Windows, Max, and Linux. In this course, instructor Walt Ritscher introduces tips and techniques for using the smart, context-sensitive features in VS Code to speed up your development work. Learn how to find code references faster, generate boilerplate HTML, improve quality with code refactoring, create custom keybindings for the commands you use most, and copy and move code blocks with ease. Walt also introduces five of his favorite extensions, including GitLens, which enables powerful insights into your Git repository without ever leaving VS Code.
+
+
+***********************************************
+Chapter: 1. Tips and Techniques
+***********************************************
+
+
+-----------------------------------------------
+Video: Use Go to and Peek Definition to find code references
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:49            Sometimes when coding, unfamiliarity can be found: -> Exploring code definition is possible
+-> Right Click -> Code Definition (F12)
+
+Directs to the definition of the code.
+
+To go back to previous tab:
+Alt + <- (back/left arrow) 
+
+0:02:10            Note: Peek definition can be done in everything even if one does not have the source code for it.
+
+1. If the source code is found, it directs it to the file
+2. If using a library (no source code), it brings up a typescript that tells how to use the function 
+
+0:03:33            Find all references -> finds all the location at which a specific code is used
+
+Note: Flaw is only looking for opened files 
+
+0:03:47            Peek Definition -> shows the definition directly on the screen without opening a new tab 
+
+
+-----------------------------------------------
+Video: Refactor the code
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:51            Refactor code - restructuring/renaming code to be more descriptive
+eg. Variable names for the whole project
+
+Right Click -> Rename Symbol -> Type the new name of variable
+
+Better(and more accurate):
+Right Click -> Change All Occurences -> Change the name 
+
+0:01:54            Magic number - a constant that is written in an equation where it is difficult to figure where the basis of the number is
+
+-> This is avoided as it is non-descriptive 
+
+0:02:43            Fixing magic number 
+Right Click -> Refactor Code -> Choose option (such as Extract to Global Scope_ -> Change name 
+
+0:03:18            Modular Programing:
+-> Remove repeating code or minimize
+
+Right Click -> Refactor Code -> Choose Option (eg. Extract to function in global scope) 
+
+
+-----------------------------------------------
+Video: Favorite extensions: Bracket Pair Colorizer
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:03            Bracket Pair Colorizer -> helps in coloring different brackets (parenthesis and braces) to easily identify pairs 
+
+
+-----------------------------------------------
+Video: Tidy code layout with Format Document
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:02            Format Document and Format Selection
+1. F1 -> Format
+2. Right Clicking -> Format Document
+3. Shift + Alt + F 
+
+0:03:03            Settings -> Format -> Auto-Format
+
+Helps in formatting while coding 
+
+0:04:51            Formatting Settings:
+eg. extension: HTML -> format Wrap Attribute 
+
+
+-----------------------------------------------
+Video: Create custom keybindings for common commands
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:34            KeyBindings Remapping:
+Settings -> Keyboard Shortcuts -> Type Command Being Looked For -> Select -> Edit Key Binding 
+
+
+-----------------------------------------------
+Video: Favorite extensions: Spell Checker
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:36            Spell Checker -> Looks through documents in order to check spellings
+
+Hover -> Light bulb -> Click Suggested Word
+
+or
+
+Ctrl + . 
+
+
+-----------------------------------------------
+Video: A simple technique to copy code blocks
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:41            Move code:
+-> select code
+-> Alt + (up/down arrow key) 
+
+
+-----------------------------------------------
+Video: Favorite extensions: Sort lines
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:37            Sort lines -> variable declaration alphabetic sorting
+
+Hotkey: F1 / Ctrl+Shift+p (opens up command)
+
+Key binding of Sortline: F9 
+
+
+-----------------------------------------------
+Video: Use Emmet notation to add boilerplate text
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:05:10            Emmet - helps in creating templates for code blocks
+
+eg. 
+1. div>ul>li
+->Creates a div with ul and li inside nested
+2. div>ul*2>li*6
+-> creates a div with two ul with 6 li each
+3. img.large
+-> img with src and class attribute
+4. p.large#welcome
+->p with class large and id welcome
+5. ul>li.example$*4
+-> creates a ul with 4 li with classes example1, example2 ... where $ is a wildcard counter
+6. lorem
+7. ul>li.example$*6>lorem 
+
+0:05:18            Fuzzy Search -> searching with the unique set of order of a string without needing consecutivity.
+
+eg. typing "ta" pops up with table-align 
+
+
+-----------------------------------------------
+Video: Favorite extensions: GitLens
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:04:18            Gitlens - allows viewing of the from the previous version and details about that version 
+
+
+-----------------------------------------------
+Video: Use font ligatures to add symbols to your code
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:04            Font Ligature - helps in showing codes in mathematical equation for the aesthethics 
+
+[object Object]
