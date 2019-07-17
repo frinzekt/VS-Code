@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Google Drive\\UWA\\Goals\\Programming Foundations\\VS-Code\\Learning Visual Studio Code\\Exercise Files\\Ch02\\02_02\\Begin\\mydotnet\\mydotnet.csproj": {}
+  },
+  "projects": {
+    "D:\\Google Drive\\UWA\\Goals\\Programming Foundations\\VS-Code\\Learning Visual Studio Code\\Exercise Files\\Ch02\\02_02\\Begin\\mydotnet\\mydotnet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Google Drive\\UWA\\Goals\\Programming Foundations\\VS-Code\\Learning Visual Studio Code\\Exercise Files\\Ch02\\02_02\\Begin\\mydotnet\\mydotnet.csproj",
+        "projectName": "mydotnet",
+        "projectPath": "D:\\Google Drive\\UWA\\Goals\\Programming Foundations\\VS-Code\\Learning Visual Studio Code\\Exercise Files\\Ch02\\02_02\\Begin\\mydotnet\\mydotnet.csproj",
+        "packagesPath": "C:\\Users\\Frinze Lapuz\\.nuget\\packages\\",
+        "outputPath": "D:\\Google Drive\\UWA\\Goals\\Programming Foundations\\VS-Code\\Learning Visual Studio Code\\Exercise Files\\Ch02\\02_02\\Begin\\mydotnet\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Frinze Lapuz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.syncfusion.com/nuget_xamarin/nuget/getsyncfusionpackages/xamarin": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.syncfusion.com/nuget_xamarin/nuget/getsyncfusionpackages/xamarin": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
