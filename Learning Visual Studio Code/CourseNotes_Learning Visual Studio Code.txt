@@ -1,0 +1,118 @@
+Course Title: Learning Visual Studio Code
+
+Description: Visual Studio Code is a lightweight source code editor that boasts the advanced features of an IDE, and runs on Windows, Linux, and macOS. It provides easy access to many extensions for additional features and support for languages like C#, C++, Python, Java, and much more. It comes with support for embedded Git control, debugging, intelligent code completion, code refactoring, and more.    In this course, learn the basics of Visual Studio Code. Industry expert Reynald Adolphe helps you get started with Visual Studio Code by showing how to use the command line and manage its layout, as well as how to handle multiple instances of the command line. He also demonstrates code refactoring, explains how to prepare for environments like ASP.NET, and shows how to create your first .NET app and Node app. Plus, Reynald covers keyboard shortcuts, and language features.
+
+
+***********************************************
+Chapter: 1. Visual Studio Code Environment
+***********************************************
+
+
+-----------------------------------------------
+Video: A case for VS code
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:01:13            Choosing Visual Studio Code:
+- Cross-platform
+- Fast code editor
+- Debugger
+- Intellisense
+- Refactoring Feature 
+
+
+***********************************************
+Chapter: 2. Layout, ASP.NET, Node, and Refactoring
+***********************************************
+
+
+-----------------------------------------------
+Video: VS code layout
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:06:20            Command Palette - allows entry of command via words
+F1 / CTRL + SHIFT + P
+
+Search Files:
+CTRL + P
+
+Terminal:
+ctrl + ` 
+
+
+-----------------------------------------------
+Video: Creating your first .NET app
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:04:09            Dotnet Create App:
+- dotnet new mvc
+
+Run:
+- dotnet run 
+
+
+-----------------------------------------------
+Video: Code Refactoring
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:03:13            Create Custom Snippets:
+file -> Preferences -> User Snippets -> Specify Language 
+
+
+***********************************************
+Chapter: 3. Themes, Preferences, and View Bar Details
+***********************************************
+
+
+-----------------------------------------------
+Video: Setting up preferences
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:03:54            Settings.json - file containing custom settings for specific project (workspace settings) 
+
+
+-----------------------------------------------
+Video: View bar details
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:02:55            Horizontal View Layout can also be used.
+Open Editors -> Split Editor -> Horizontal Editor Group Layout 
+
+
+***********************************************
+Chapter: 4. Source Control, Debugging, and Playground
+***********************************************
+
+
+-----------------------------------------------
+Video: Git and version control
+-----------------------------------------------
+Note Time:         Note Text:                     
+
+0:00:40            Source Control Examples:
+- Github
+- Visual Studio Online
+- Bit Bucket 
+
+0:04:08            Push existing repository:
+git remote add origin https://github.com/[Username]/[Repository].git
+git push -u origin master 
+
+0:04:08            Create new repository:
+echo "# [Repository Name" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ReynaldAdolphe/MyDotnet.git
+git push -u origin master 
+
+0:07:22            Configuring User Account:
+git config --global user.name [User Name]
+git config --global user.email [Email] 
+
+[object Object]
