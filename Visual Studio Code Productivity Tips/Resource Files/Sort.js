@@ -1,14 +1,10 @@
-function LiveDemo()
-{
-
-  
-  
-  var bingo ;
-  var jello;
-  var arrayOfOddNumbers;
-  var markup = .3;
-  var longVariableName = "Long text";
+function LiveDemo() {
+	var arrayOfOddNumbers;
+	var bingo;
+	var jello;
+	var longVariableName = "Long text";
+	var markup = 0.3;
 }
 
-function createCharArray(){}
-function addNumbers (){}
+function createCharArray() {}
+function addNumbers() {}
